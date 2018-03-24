@@ -1,0 +1,18 @@
+body {
+  font-size: 18px;
+}
+
+#resultsBox {
+  width: 300px;
+  height: 300px;
+}
+
+#guessesLeftBox {
+  width: 300px;
+  height: 100px;
+}
+
+#guessedListBox {
+  width: 300px;
+  height: 100px;
+}
