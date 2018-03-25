@@ -28,7 +28,7 @@ document.onkeyup = function(event) {
     StartGame();
     return;
   }
-  if (guess != "ENTER" && (guessesLeft <= 0 || guesses[guess.length - 1] == secretLetter)) {
+  if (guessesLeft <= 0 || guesses[guesses.length - 1] === secretLetter|| guesses.indexOf(guess) != -1) {
     return;
   }
   console.log("Guess: " + guess);
